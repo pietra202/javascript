@@ -1,6 +1,6 @@
 var nome = "luci";
 var banco = "Brasil";
-var agencia = 04567;
+var agencia = 4567;
 var conta = 2035;
 var saldo = 100;
 
@@ -20,5 +20,4 @@ console.log(
   "sua conta do banco Brasil com numero",
   conta,
   "é de saldo",
-  saldo
-);
+  saldo);
