@@ -36,3 +36,24 @@ console.table(dinos);
 
 dinos.splice(0, 1);
 console.table(dinos);
+
+console.log("---------------------------------------------------")
+// console.l9og("continuação da aula")
+var dinos = 
+    "triceratops";
+    "tiranossauro";
+    "estegossauro";
+    "anquilossauro";
+    "brontossauro";
+    "ictiossauro";
+    "pterodactilo";
+    "espinossauro";
+
+    var elementosprocurados = "pterodactilo";
+    var posição = dinos.indexOf(elementosprocurados);
+    console.log("O" + elementosprocurados + "esta na indice") + "pterodactilo"
+
+    var elementosprocurados = "pterodactilo";
+    var posição = dinos.indexOf(elementosprocurados);
+    console.log("O" + elementosprocurados + "esta na indice") + "pterodactilo"
+    
