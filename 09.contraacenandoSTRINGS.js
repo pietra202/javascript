@@ -1,4 +1,6 @@
 // contra acenando strings
-var txt 1 = "estudar javaScript";
-var txt 2 = "e muito legal";
+var texto 1 = "estudar javaScript";
+var texto 2 = "e muito legal";
+
+
 
