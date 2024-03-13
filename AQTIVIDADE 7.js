@@ -11,30 +11,8 @@ while (popA < popB) {
 console.log(`ca população A (${Math.round(popA)}) ira passar a população B
 (${Math.round(popA)}) em ${ano} anos`);
 
-console.log(
+console.log
   "-------------------------------------------------------------------"
-);
 
-console.log("___|___|___");
-console.log("___|___|___");
-console.log("   |    |  ");
-
-const tabuleiro = [
-  ["  ", "  ", "  "],
-  ["  ", "  ", "  "],
-  ["  ", "  ", "  "],
-];
-
-let jogadorO = "O";
-let jogadorX = "X";
-
-function jogar(jogador) {
-  let linha, coluna;
-  do {
-    linha = Math.floor(Math.random() * 3);
-    coluna = Math.floor(Math.random() * 3);
-  } while (tabuleiro[linha][coluna] !== " ");
-  tabuleiro[linha][coluna] = jogador;
-}
-// -----------------------------------------------------------------------
+  
 
